@@ -31,10 +31,10 @@ int main()
     Awt = Twt / n;
     Atat = Ttat / n;
 
-    printf("Process   Bt   Ct   Wt    Tat\n");
+    printf("Process\tBt\tCt\tWt\tTat\n");
 
     for (i = 0; i < n; i++)
-        printf("  %d\t  %d    %d    %d      %d\n", P[i], Bt[i], Ct[i], Wt[i], Tat[i]);
+        printf("%d\t%d\t%d\t%d\t%d\n", P[i], Bt[i], Ct[i], Wt[i], Tat[i]);
 
     printf("Average waiting time = %.2f", Awt);
     printf("\nAverage turn arount time = %.2f", Atat);
