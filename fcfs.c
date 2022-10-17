@@ -20,10 +20,10 @@ int main()
     Awt = Twt / n;
     Atat = Ttat / n;
 
-    printf("Process  At   Bt   Ct   Wt    Tat\n");
+    printf("Process\tAt\tBt\tCt\tWt\tTat\n");
 
     for (i = 0; i < n; i++)
-        printf("  %d\t %d    %d    %d    %d     %d\n", P[i], At[i], Bt[i], Ct[i], Wt[i], Tat[i]);
+        printf("%d\t%d\t%d\t%d\t%d\t%d\n", P[i], At[i], Bt[i], Ct[i], Wt[i], Tat[i]);
 
     printf("Average waiting time = %.2f\n", Awt); //%.2f for 2 decimal places
     printf("Average turn arount time = %.2f\n", Atat);
